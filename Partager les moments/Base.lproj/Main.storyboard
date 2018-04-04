@@ -47,14 +47,13 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <navigationItem key="navigationItem" id="gbL-Wu-EUc">
-                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="SM3-Ax-VVc">
+                        <barButtonItem key="rightBarButtonItem" systemItem="action" id="SM3-Ax-VVc" userLabel="partagerBouton">
                             <connections>
                                 <action selector="boutonPartagerAppuyer:" destination="BYZ-38-t0r" id="drc-Z8-peh"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="partager" destination="SM3-Ax-VVc" id="yOS-9O-JIf"/>
                         <outlet property="partagerBouton" destination="SM3-Ax-VVc" id="3DI-EP-WGG"/>
                         <outlet property="photoAPartager" destination="lkA-hj-g73" id="aod-bs-U4R"/>
                         <outlet property="texteAPartager" destination="9gU-xC-YRE" id="7vn-cx-Sgv"/>
